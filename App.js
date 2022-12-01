@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { StatusBar } from "expo-status-bar";
+import Header from "./components/Header";
 import {
   StyleSheet,
   Text,
@@ -45,8 +46,7 @@ export default function App() {
   };
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Lista pal mandado de los titos</Text>
-      <StatusBar style="light" />
+      <Header/>
       <TextInput
         placeholder="Escribe cosa pal mandado"
         onChangeText={onChangeText}
