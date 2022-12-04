@@ -4,12 +4,6 @@ import {
   StyleSheet,
   Text,
   View,
-  TextInput,
-  Button,
-  FlatList,
-  SafeAreaView,
-  Keyboard,
-  ScrollView,
 } from 'react-native';
 
 export default function Header (){
@@ -32,6 +26,6 @@ const styles = StyleSheet.create({
     marginTop: 60,
     // marginBottom: 60,
     margin: 0,
-    borderWidth: 1
+    // borderWidth: 1
   }
 })
