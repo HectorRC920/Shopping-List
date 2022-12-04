@@ -36,6 +36,7 @@ export default function App() {
     <View style={styles.container}>
       <Header/>
       <TextInput
+      
         placeholder="Escribe cosa pal mandado"
         onChangeText={onChangeText}
         value={newItem}
@@ -44,8 +45,6 @@ export default function App() {
       <ListItems 
         items={items}
       />
-      <Text>title {newItem.title}</Text>
-      <Text>Id {newItem.id}</Text>
       <View style={styles.addItemButtonContainer}>
         <Button
           style={styles.addItemButton}
